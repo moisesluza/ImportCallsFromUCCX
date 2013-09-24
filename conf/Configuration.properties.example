@@ -1,0 +1,49 @@
+#-------------------------
+# SQLServer (Destino)
+#-------------------------
+# DataBase Server name or ip
+SQL_SERVER_NAME=999.99.999.999
+
+# Port
+SQL_DATABASE_PORT=1433
+ 
+# DataBase name
+SQL_DATABASE_NAME=db_name
+ 
+# DataBase User
+SQL_DATABASE_USER=sql_user
+ 
+# DataBase Password
+SQL_DATABASE_PASSWORD=sql_user_pass
+
+# Class name
+SQL_CLASS_NAME=com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+# Nombre Tabla destino
+DEST_TABLE_NAME=table_name
+
+#---------------------------
+# Informix UCCX (Origen)
+#---------------------------
+# host name or ip
+IFX_HOST_NAME=999.99.9.99
+
+# Port
+IFX_DATABASE_PORT=1504
+ 
+# DataBase name
+IFX_DATABASE_NAME=db_cra
+
+#Informix Server name
+IFX_SERVER_NAME=ifx_name
+ 
+# DataBase User
+IFX_DATABASE_USER=uccxhruser
+ 
+# DataBase Password
+IFX_DATABASE_PASSWORD=c1sc0
+
+# Class Name
+IFX_CLASS_NAME=com.informix.jdbc.IfxDriver
+
+

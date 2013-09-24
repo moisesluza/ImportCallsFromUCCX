@@ -1,0 +1,16 @@
+EXECUTE
+-----------------
+formas de ejecución:
+java -cp bin;lib/ifxjdbc.jar;lib/sqljdbc4.jar CopiaLlamadas <fecha inicio> <fecha fin> <proyecto>
+java -cp bin;lib/ifxjdbc.jar;lib/sqljdbc4.jar CopiaLlamadas <proyecto>
+
+Ejemplo:
+java -cp bin;lib/ifxjdbc.jar;lib/sqljdbc4.jar CopiaLlamadas BBVA
+java -cp bin;lib/ifxjdbc.jar;lib/sqljdbc4.jar CopiaLlamadas 2013-08-01 2013-08-22 BBVA
+
+COMPILE
+-----------------
+javac -d bin -sourcepath src -cp lib/ifxjdbc.jar;lib/sqljdbc4.jar src/CopiaLlamadas.java
+
+
+java -jar -cp bin;lib/ifxjdbc.jar;lib/sqljdbc4.jar bin/jCopiarLlamadas.jar
